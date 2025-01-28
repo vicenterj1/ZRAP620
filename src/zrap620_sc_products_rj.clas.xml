@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Consumption model for client proxy - generated</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+     <CMPNAME>DEF_SEPMRA_I_PRODUCT_ETYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Define SEPMRA_I_Product_EType</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+     <CMPNAME>GCS_ENTITY_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Names of the entity sets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+     <CMPNAME>GCS_ENTITY_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal names for entity types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+     <CMPNAME>MO_MODEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+     <CMPNAME>TYS_SEPMRA_I_PRODUCT_ETYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SEPMRA_I_Product_EType</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZRAP620_SC_PRODUCTS_RJ</CLSNAME>
+     <CMPNAME>TYT_SEPMRA_I_PRODUCT_ETYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>List of SEPMRA_I_Product_EType</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DEF_SEPMRA_I_PRODUCT_ETYPE</CMPNAME>
+     <SCONAME>/IWBEP/CX_GATEWAY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gateway Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

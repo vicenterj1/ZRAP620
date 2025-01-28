@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Inventory App VICENTE",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "br.com.vicente.zrap620inventoryvicenterj"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_77259AC4C62F1CC1F9EED45BDD0E74DFB4545559_TM",
+    "semanticObject": "ZRAP620_VICENTE_INVENTORY",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_77259AC4C62F1CC1F9EED45BDD0E74DFB4545559_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Inventory App VICENTE",
+        "subtitle": "RAP620 - VICENTE"
+      }
+    }
+  ]
+}

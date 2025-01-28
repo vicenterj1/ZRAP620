@@ -1,0 +1,13 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_RAP620_INVENRJ'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_RAP620_INVENRJ'
+  }
+}
+define service ZUI_RAP620_INVENRJ_O4
+  provider contracts odata_v4_ui {
+  expose ZC_RAP620_INVENRJ      as Inventory;
+  expose ZRAP620_CE_PRODUCTS_RJ as Products;
+}

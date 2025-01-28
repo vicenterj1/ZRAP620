@@ -1,0 +1,167 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Uuid'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Uuid'
+annotate view ZC_RAP620_INVENRJ with
+{
+  @EndUserText.label: 'Uuid'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Uuid'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Uuid'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Uuid;
+  
+  @EndUserText.label: 'InventoryId'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'InventoryId'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'InventoryId'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  InventoryId;
+  
+  @EndUserText.label: 'ProductId'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'ProductId'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'ProductId'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  ProductId;
+  
+  @EndUserText.label: 'Quantity'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Quantity'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Quantity'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Quantity;
+  
+  @EndUserText.label: 'Price'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Price'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Price'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Price;
+  
+  @EndUserText.label: 'Description'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Description'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Description'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Description;
+  
+  @EndUserText.label: 'OverallStatus'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'OverallStatus'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'OverallStatus'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  OverallStatus;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  LastChangedBy;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  LastChangedAt;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  LocalLastChangedAt;
+}
